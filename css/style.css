@@ -19,7 +19,7 @@
 /* MAIN */
 #button-div{
     background-color: white;
-    padding-left: 180px;
+    padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
     width: 80%;
@@ -56,6 +56,8 @@
     border: 1px solid rgb(137, 208, 192);
     color: rgb(137, 208, 192);
     border-radius: 50%;
+    padding: 3px;
+    margin-right: 5px;
 }
 
 .task-failed::before{
@@ -63,13 +65,16 @@
     border: 1px solid rgb(238, 102, 93);
     color: rgb(238, 102, 93);
     border-radius: 50%;
+    padding: 3px;
+    margin-right: 5px;
 }
 
 .span{
     font-size: 12px;
-    border: 1px solid white;
+    border: 1px solid none;
     border-radius: 25px;
     padding: 7px 10px;
+    margin-left: 5px;
 }
 
 .span.editorial{
@@ -100,4 +105,22 @@
 .span.sales{
     background-color: rgb(176, 201, 38);
     color: white;
+}
+
+#main-task-div{
+    width: 80%;
+    background-color: white;
+    margin: 5px auto;
+    
+}
+
+.task, .task-title, .task-failed{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+
+}
+
+.task-div{
+    padding-top: 15px;
 }
