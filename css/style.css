@@ -46,3 +46,15 @@
     padding-left: 50px;
     padding-bottom: 20px;
 }
+
+.task-title::before{
+    content: "\25BC";
+}
+
+.task::before{
+    content: "\2713";
+}
+
+.task-failed::before{
+    content: "\2717";
+}
