@@ -17,3 +17,32 @@
     vertical-align: top;
 }
 /* MAIN */
+#button-div{
+    background-color: white;
+    padding-left: 180px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buttons{
+    padding: 8px 8px;
+    border-radius: 10%;
+}
+
+.buttons.first{
+    background-color: rgb(71, 173, 241);
+    color: white;
+}
+
+.buttons.second{
+    color: rgb(209, 214, 218);
+    background-color: white;
+}
+#main-box{
+    background-color: rgb(246, 248, 249);
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
