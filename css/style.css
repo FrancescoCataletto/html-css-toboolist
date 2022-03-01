@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -12,7 +13,6 @@
 }
 #title{
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     vertical-align: top;
 }
@@ -53,8 +53,51 @@
 
 .task::before{
     content: "\2713";
+    border: 1px solid rgb(137, 208, 192);
+    color: rgb(137, 208, 192);
+    border-radius: 50%;
 }
 
 .task-failed::before{
     content: "\2717";
+    border: 1px solid rgb(238, 102, 93);
+    color: rgb(238, 102, 93);
+    border-radius: 50%;
+}
+
+.span{
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 7px 10px;
+}
+
+.span.editorial{
+    background-color: rgb(69, 171, 234);
+    color: white;
+}
+
+.span.Q1{
+    background-color: rgb(156, 114, 228);
+    color: white;
+}
+
+.span.recruiting{
+    background-color: rgb(100, 192, 169);
+    color: white;
+}
+
+.span.mobile{
+    background-color: rgb(242, 158, 51);
+    color: white;
+}
+
+.span.website{
+    background-color: rgb(216, 99, 161);
+    color: white;
+}
+
+.span.sales{
+    background-color: rgb(176, 201, 38);
+    color: white;
 }
