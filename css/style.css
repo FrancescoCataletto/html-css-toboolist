@@ -7,5 +7,13 @@
 }
 
 /* HEADER */
-
+#head-logo{
+    padding: 15px 25px 15px;
+}
+#title{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    vertical-align: top;
+}
 /* MAIN */
