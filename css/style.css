@@ -30,6 +30,9 @@ body{
 }
 
 /* MAIN */
+.container{
+    background-color: white;
+}
 
 .button{
     font-size: 20px;
@@ -46,3 +49,68 @@ body{
 .section.button{
     color: rgb(207, 212, 216);
 }
+
+.tasks{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 50px 0px;
+}
+
+li{
+    padding: 20px 0px;
+}
+
+ul::before{
+    content: "\25BC";
+}
+
+.done::before{
+    content: "\2713";
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+.undone::before{
+    content: "\2715";
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+.highlight{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    margin-left: 10px;
+}
+.highlight.editorial{
+    background-color: rgb(69, 171, 234);
+}
+.highlight.Q{
+    background-color: rgb(156, 114, 228);
+}
+
+.highlight.recruiting{
+    background-color: rgb(100, 192, 169);
+}
+
+.highlight.mobile{
+    background-color: rgb(242, 158, 51);
+}
+
+.highlight.website{
+    background-color: rgb(216, 99, 161);
+}
+
+.highlight.sales{
+    background-color: rgb(176, 201, 38);
+}
+
