@@ -29,3 +29,20 @@ body{
     vertical-align: middle;
 }
 
+/* MAIN */
+
+.button{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.task.button{
+    background-color: rgb(71, 173, 241);
+    color: white;
+}
+
+.section.button{
+    color: rgb(207, 212, 216);
+}
