@@ -14,7 +14,8 @@ body{
 #logo{
     height: 150px;
     background-color: white;
-    margin-left: 30px;
+    padding-left: 30px;
+    margin-bottom: 100px;
 }
 
 #img{
@@ -31,7 +32,8 @@ body{
 
 /* MAIN */
 .container{
-    background-color: white;
+    margin: 0 auto;
+    width: 70%;
 }
 
 .button{
@@ -41,6 +43,15 @@ body{
     border-radius: 5px;
 }
 
+.buttons{
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.buttons, .tasks{
+    padding-left: 100px;
+}
+
 .task.button{
     background-color: rgb(71, 173, 241);
     color: white;
@@ -48,10 +59,12 @@ body{
 
 .section.button{
     color: rgb(207, 212, 216);
+    background-color: white;
 }
 
 .tasks{
     font-size: 30px;
+    background-color: white;
     margin-top: 5px;
 }
 
@@ -74,6 +87,7 @@ ul::before{
     border-radius: 50%;
     padding: 10px 10px;
     margin-right: 10px;
+    color: green;
 }
 
 .undone::before{
@@ -82,6 +96,7 @@ ul::before{
     border-radius: 50%;
     padding: 10px 10px;
     margin-right: 10px;
+    color: red;
 }
 
 .highlight{
